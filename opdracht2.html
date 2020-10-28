@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 2</title>
+<script>
+
+    function zoekletter(){
+      console.log("doet hij het");
+        var woord = document.getElementById("vinde").value;
+        for(var i = 0 ; i < woord.length ; i++)  
+            if("e" == woord[i] ){
+                alert("dit woord bevat een e")
+                    
+    }
+}
+
+
+</script>
+
+
+
+</head>
+<body>
+<input type="text" name="Invoerveld naam" id="vinde">  
+<input type="button" value="Zend en kijk" onclick="zoekletter()">  
+</body>
+</html>
